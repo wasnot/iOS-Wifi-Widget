@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC249C519F582C300B4476E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC249C419F582C300B4476E /* main.m */; };
+		ABC249C819F582C300B4476E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC249C719F582C300B4476E /* AppDelegate.m */; };
+		ABC249CB19F582C300B4476E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC249CA19F582C300B4476E /* ViewController.m */; };
+		ABC249CE19F582C300B4476E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC249CC19F582C300B4476E /* Main.storyboard */; };
+		ABC249D019F582C300B4476E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC249CF19F582C300B4476E /* Images.xcassets */; };
+		ABC249D319F582C300B4476E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC249D119F582C300B4476E /* LaunchScreen.xib */; };
+		ABC249DF19F582C300B4476E /* WifiNameWidgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC249DE19F582C300B4476E /* WifiNameWidgetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC249D919F582C300B4476E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC249B719F582C300B4476E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC249BE19F582C300B4476E;
+			remoteInfo = WifiNameWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC249BF19F582C300B4476E /* WifiNameWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiNameWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC249C319F582C300B4476E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC249C419F582C300B4476E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABC249C619F582C300B4476E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABC249C719F582C300B4476E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABC249C919F582C300B4476E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABC249CA19F582C300B4476E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABC249CD19F582C300B4476E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABC249CF19F582C300B4476E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABC249D219F582C300B4476E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABC249D819F582C300B4476E /* WifiNameWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiNameWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC249DD19F582C300B4476E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC249DE19F582C300B4476E /* WifiNameWidgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiNameWidgetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC249BC19F582C300B4476E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC249D519F582C300B4476E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC249B619F582C300B4476E = {
+			isa = PBXGroup;
+			children = (
+				ABC249C119F582C300B4476E /* WifiNameWidget */,
+				ABC249DB19F582C300B4476E /* WifiNameWidgetTests */,
+				ABC249C019F582C300B4476E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC249C019F582C300B4476E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC249BF19F582C300B4476E /* WifiNameWidget.app */,
+				ABC249D819F582C300B4476E /* WifiNameWidgetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC249C119F582C300B4476E /* WifiNameWidget */ = {
+			isa = PBXGroup;
+			children = (
+				ABC249C619F582C300B4476E /* AppDelegate.h */,
+				ABC249C719F582C300B4476E /* AppDelegate.m */,
+				ABC249C919F582C300B4476E /* ViewController.h */,
+				ABC249CA19F582C300B4476E /* ViewController.m */,
+				ABC249CC19F582C300B4476E /* Main.storyboard */,
+				ABC249CF19F582C300B4476E /* Images.xcassets */,
+				ABC249D119F582C300B4476E /* LaunchScreen.xib */,
+				ABC249C219F582C300B4476E /* Supporting Files */,
+			);
+			path = WifiNameWidget;
+			sourceTree = "<group>";
+		};
+		ABC249C219F582C300B4476E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC249C319F582C300B4476E /* Info.plist */,
+				ABC249C419F582C300B4476E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC249DB19F582C300B4476E /* WifiNameWidgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC249DE19F582C300B4476E /* WifiNameWidgetTests.m */,
+				ABC249DC19F582C300B4476E /* Supporting Files */,
+			);
+			path = WifiNameWidgetTests;
+			sourceTree = "<group>";
+		};
+		ABC249DC19F582C300B4476E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC249DD19F582C300B4476E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC249BE19F582C300B4476E /* WifiNameWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC249E219F582C300B4476E /* Build configuration list for PBXNativeTarget "WifiNameWidget" */;
+			buildPhases = (
+				ABC249BB19F582C300B4476E /* Sources */,
+				ABC249BC19F582C300B4476E /* Frameworks */,
+				ABC249BD19F582C300B4476E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiNameWidget;
+			productName = WifiNameWidget;
+			productReference = ABC249BF19F582C300B4476E /* WifiNameWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC249D719F582C300B4476E /* WifiNameWidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC249E519F582C300B4476E /* Build configuration list for PBXNativeTarget "WifiNameWidgetTests" */;
+			buildPhases = (
+				ABC249D419F582C300B4476E /* Sources */,
+				ABC249D519F582C300B4476E /* Frameworks */,
+				ABC249D619F582C300B4476E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC249DA19F582C300B4476E /* PBXTargetDependency */,
+			);
+			name = WifiNameWidgetTests;
+			productName = WifiNameWidgetTests;
+			productReference = ABC249D819F582C300B4476E /* WifiNameWidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC249B719F582C300B4476E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Wasnot Apps";
+				TargetAttributes = {
+					ABC249BE19F582C300B4476E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					ABC249D719F582C300B4476E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = ABC249BE19F582C300B4476E;
+					};
+				};
+			};
+			buildConfigurationList = ABC249BA19F582C300B4476E /* Build configuration list for PBXProject "WifiNameWidget" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC249B619F582C300B4476E;
+			productRefGroup = ABC249C019F582C300B4476E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC249BE19F582C300B4476E /* WifiNameWidget */,
+				ABC249D719F582C300B4476E /* WifiNameWidgetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC249BD19F582C300B4476E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC249CE19F582C300B4476E /* Main.storyboard in Resources */,
+				ABC249D319F582C300B4476E /* LaunchScreen.xib in Resources */,
+				ABC249D019F582C300B4476E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC249D619F582C300B4476E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC249BB19F582C300B4476E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC249CB19F582C300B4476E /* ViewController.m in Sources */,
+				ABC249C819F582C300B4476E /* AppDelegate.m in Sources */,
+				ABC249C519F582C300B4476E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC249D419F582C300B4476E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC249DF19F582C300B4476E /* WifiNameWidgetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC249DA19F582C300B4476E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC249BE19F582C300B4476E /* WifiNameWidget */;
+			targetProxy = ABC249D919F582C300B4476E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC249CC19F582C300B4476E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC249CD19F582C300B4476E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABC249D119F582C300B4476E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC249D219F582C300B4476E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC249E019F582C300B4476E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC249E119F582C300B4476E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC249E319F582C300B4476E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WifiNameWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABC249E419F582C300B4476E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WifiNameWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABC249E619F582C300B4476E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WifiNameWidgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiNameWidget.app/WifiNameWidget";
+			};
+			name = Debug;
+		};
+		ABC249E719F582C300B4476E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WifiNameWidgetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiNameWidget.app/WifiNameWidget";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC249BA19F582C300B4476E /* Build configuration list for PBXProject "WifiNameWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC249E019F582C300B4476E /* Debug */,
+				ABC249E119F582C300B4476E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC249E219F582C300B4476E /* Build configuration list for PBXNativeTarget "WifiNameWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC249E319F582C300B4476E /* Debug */,
+				ABC249E419F582C300B4476E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABC249E519F582C300B4476E /* Build configuration list for PBXNativeTarget "WifiNameWidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC249E619F582C300B4476E /* Debug */,
+				ABC249E719F582C300B4476E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC249B719F582C300B4476E /* Project object */;
+}
