@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <SystemConfiguration/CaptiveNetwork.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // 3G接続の場合はnilが戻されるので、以降のコードで注意する。
+    CFArrayRef interfaces = CNCopySupportedInterfaces();
+    
+    if(interfaces){
+    CFDictionaryRef dicRef = CNCopyCurrentNetworkInfo(CFArrayGetValueAtIndex(interfaces, 0));
+    
+    if (dicRef) {
+        NSString *ssid = CFDictionaryGetValue(dicRef, kCNNetworkInfoKeySSID);
+        // Macアドレスを取得
+        //macAddress = CFDictionaryGetValue(dicRef, kCNNetworkInfoKeyBSSID);
+        
+        NSLog(@"%@", ssid);
+        _WifiNameLabel.text = ssid;
+    }
+    }
 }
 
 - (void)didReceiveMemoryWarning {

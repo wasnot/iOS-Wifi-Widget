@@ -14,6 +14,7 @@
 		ABC249D019F582C300B4476E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC249CF19F582C300B4476E /* Images.xcassets */; };
 		ABC249D319F582C300B4476E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC249D119F582C300B4476E /* LaunchScreen.xib */; };
 		ABC249DF19F582C300B4476E /* WifiNameWidgetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC249DE19F582C300B4476E /* WifiNameWidgetTests.m */; };
+		ABC249E919F62C6900B4476E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC249E819F62C6900B4476E /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		ABC249D819F582C300B4476E /* WifiNameWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WifiNameWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC249DD19F582C300B4476E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABC249DE19F582C300B4476E /* WifiNameWidgetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WifiNameWidgetTests.m; sourceTree = "<group>"; };
+		ABC249E819F62C6900B4476E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC249E919F62C6900B4476E /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		ABC249B619F582C300B4476E = {
 			isa = PBXGroup;
 			children = (
+				ABC249E819F62C6900B4476E /* SystemConfiguration.framework */,
 				ABC249C119F582C300B4476E /* WifiNameWidget */,
 				ABC249DB19F582C300B4476E /* WifiNameWidgetTests */,
 				ABC249C019F582C300B4476E /* Products */,
@@ -168,9 +172,11 @@
 				TargetAttributes = {
 					ABC249BE19F582C300B4476E = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = GL3NKE9BN8;
 					};
 					ABC249D719F582C300B4476E = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = GL3NKE9BN8;
 						TestTargetID = ABC249BE19F582C300B4476E;
 					};
 				};
@@ -365,6 +371,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -376,6 +384,7 @@
 				INFOPLIST_FILE = WifiNameWidgetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiNameWidget.app/WifiNameWidget";
 			};
 			name = Debug;
@@ -384,6 +393,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -391,6 +402,7 @@
 				INFOPLIST_FILE = WifiNameWidgetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WifiNameWidget.app/WifiNameWidget";
 			};
 			name = Release;
@@ -414,6 +426,7 @@
 				ABC249E419F582C300B4476E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC249E519F582C300B4476E /* Build configuration list for PBXNativeTarget "WifiNameWidgetTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				ABC249E719F582C300B4476E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
