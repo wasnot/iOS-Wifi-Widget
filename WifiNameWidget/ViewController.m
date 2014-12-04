@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <SystemConfiguration/CaptiveNetwork.h>
+#import <SystemConfiguration/SystemConfiguration.h>
 
 @interface ViewController ()
 
@@ -29,7 +30,6 @@
         NSString *ssid = CFDictionaryGetValue(dicRef, kCNNetworkInfoKeySSID);
         // Macアドレスを取得
         //macAddress = CFDictionaryGetValue(dicRef, kCNNetworkInfoKeyBSSID);
-        
         NSLog(@"%@", ssid);
         _WifiNameLabel.text = ssid;
     }
